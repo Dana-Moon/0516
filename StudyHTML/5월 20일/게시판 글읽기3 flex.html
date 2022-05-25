@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            margin: 20px 20px;
+            font-size: 25px;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            margin: 0 10px 0 10px;
+        }
+        .tablehead{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border-top: 2px solid gold;
+            background-color: rgb(255,230,154);
+            align-items: center;
+            
+        }
+        .title{
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        .userinform{
+            font-size: 15px;
+            margin-right: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+        .userinform div:not(:first-child)::before{
+            content: "|";
+            padding: 0px 10px;
+            color: gold;
+        }
+
+        .detail{
+            margin: 10px 20px;
+        }
+        .comment{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            width: 100%;
+            border-top: 1px solid gold;
+            background-color: rgb(255,230,154);
+            padding: 10px 0px;
+        }
+        .comment input{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        textarea{
+            width: 70%;
+            height: 90px;
+            resize: none;
+        }
+        .userbutton{
+            display: flex;
+            justify-content: flex-end;
+            margin: 10px 0;
+        }
+        #delete{
+            margin: 5px 2px;
+            font-size: 20px;
+            padding: 2px 5px;
+            border: 1px solid rgb(255, 230,154);
+            background-color: rgb(255,210,76);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #list{
+            margin: 5px 2px;
+            font-size: 20px;
+            padding: 2px 5px;
+            border: 1px solid rgb(255, 230,154);
+            background-color: rgb(255,210,76);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #userwriting{
+            margin:2px 0 2px 8px;
+            font-size: 20px;
+            padding: 7px 7px;
+            border: 1px solid rgb(255,195,0);
+            background-color: rgb(238, 194, 72);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>게시판</h1>
+        <div class="container">
+            <div class="tablehead">
+                <div class="title">
+                    게시글 1 입니다.
+                </div>
+                <div class="userinform">
+                    <div class="writer inform">
+                        김준석 
+                    </div>
+                    <div class="view inform">
+                        조회 : 15 
+                    </div>
+                    <div class="writing time inform">
+                        2022-5-15(09:00)
+                    </div>
+                </div>
+            </div>
+
+            <div class="detail">
+                게시판 3가지 만들기 끝났습니다!<br>
+                게시판 3가지 만들기 끝났습니다!<br>
+                게시판 3가지 만들기 끝났습니다!<br>
+                게시판 3가지 만들기 끝났습니다!<br>
+                게시판 3가지 만들기 끝났습니다!<br>
+            </div>
+
+            <form class="comment">
+                <textarea></textarea>
+                <input type="submit" value="덧글쓰기"></input>
+            </form>
+
+            <form class="userbutton">
+                <input id="delete" type="submit" value="삭제"></input>
+                <input id="list" type="submit" value="목록"></input>
+                <input id="userwriting" type="submit" value="글쓰기"></input>
+            </form>
+        </div>
+</body>
+</html>

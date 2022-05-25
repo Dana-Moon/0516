@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        hr{
+            width: 100%;
+            margin-top: 0;
+        }
+        div{
+            display: inline-block;
+        }
+        .nav,.nav1 {
+            float: right;
+        }
+        .nav{
+            margin-left: 5px;
+        }
+        .nav1 span{
+            font-family: "나눔고딕";
+        }
+        .list {
+            margin-top: 12px;
+            width: 100%;
+            height: 200px;
+            border-top: 2px solid #444;
+            border-collapse: collapse;
+        }
+        .list th,.list td {
+            border-bottom: 1px solid rgb(225 201 74);
+            white-space: nowrap;
+            text-align: center;
+        }
+        .list th {
+            background-color: rgb(248, 239, 190);
+        }
+        .list td:nth-child(2){
+            text-align: left;
+        }
+        .title {
+            width: 750px;
+        }
+        .wrap {
+            width: 100%; margin: 20px;
+            overflow: hidden;
+        }
+        .button{
+            width: 100%; float: left;
+            text-align: center; margin-right: -150px;
+        }
+        .button>ul>li{
+            display: inline;
+        }
+
+        .section{
+            width: 150px; float: right;
+        }
+        .section1{
+            font-family: "굴림";
+            font-size: 18px; padding: 3px 6px;
+            border: 1px solid rgb(211, 165, 38);
+            border-radius: 5px;
+            background-color: rgb(238, 194, 72);
+        }
+        .section2{
+            font-family: "굴림";
+            font-size: 18px; padding: 3px 6px;
+            border: 1px solid rgb(211, 165, 38);
+            border-radius: 5px;
+            background-color: rgb(238, 194, 72);
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: none;
+        }            
+        
+    </style>
+</head>
+
+<body>
+    <h1>게시판</h1>
+    <hr>    
+    <div class="totalwriting">▷총 3개의 게시물이 있습니다.</div>        
+    <div class="nav">
+        <input type="text" name="검색">
+        <input type="submit" value="검색">
+    </div>
+    <div class="nav1">
+        <span id="testcheck">SELECT</span>
+        <select>
+            <option selected name="제목">제목</option>
+            <option value="detail">내용</option>
+            <option value="writer">작성자</option>
+        </select>
+    </div>
+               
+    <table class="list">
+        <tr class="detail">
+            <th>번호</th>
+            <th class="title">제목</th>
+            <th>글쓴이</th>
+            <th>일시</th>
+            <th>조회수</th>
+        </tr>
+        <tr class="detail">
+            <td>1</td>
+            <td>게시글 1입니다.</td>
+            <td>김준석</td>
+            <td>2022-05-16</td>
+            <td>15</td>
+        </tr>
+        <tr class="detail">
+            <td>2</td>
+            <td>게시글 2입니다.</td>
+            <td>김준석</td>
+            <td>2022-05-16</td>
+            <td>15</td>
+        </tr>
+        <tr class="detail">
+            <td>3</td>
+            <td>게시글 3입니다.</td>
+            <td>김준석</td>
+            <td>2022-05-16</td>
+            <td>15</td>
+        </tr>
+    </table>
+
+    <div class="wrap">
+        <nav class="button">
+            <ul>
+                <li><a href="#">◀이전</a></li>
+                <li>1</li>
+                <li><a href="#">다음▶</a></li>
+            </ul>
+        </nav>
+        <section class="section">
+            <form>
+                <input class="section1" type="button" value="목록" onclick="window.location='www.'">
+                <input class="section2" type="submit" value="글쓰기">
+            </form>
+        </section>
+    </div>
+</body>
+</html>
