@@ -19,6 +19,7 @@
         }
         .new_content{
             display: grid;
+            grid-template: 408px 100px 100px 1712px 200px / 100px 1fr 100px;
             grid-template-areas:
                 "banner banner banner"
                 ". title ."
@@ -26,17 +27,26 @@
                 ". products ."
                 ". page_button .";
         }
-        .new_banner {grid-area: banner;}
+
+        .new_content .new_banner {grid-area: banner;}
         .title {grid-area: title;}
         .menu {grid-area: menu;}
         .products {grid-area: products;}
         .page_button {grid-area: page_button;}
 
-        .new_banner{
+        .new_content .new_banner{
             position: relative;
             height: 408px;
             overflow: hidden;
         }
+        
+        .new_content .title{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            
+        }
+
+        
     </style>
 </head>
 <body>
@@ -52,7 +62,9 @@
                 </div>
                 <div class="title_button">
                     <a href="/"></a>
+                    <div>></div>
                     <a href="http://www.drclio.co.kr/category/product/57/">PRODUCT</a>
+                    <div>></div>
                     <a href="http://www.drclio.co.kr/category/%ED%81%B4%EB%A6%AC%EC%96%B4%EC%8A%A4/79/">NEW&BEST</a>
                 </div>
             </div>
