@@ -51,11 +51,24 @@
             align-items: center;
         }
         #title .title_button{
-            display: flex;
-            
+            display: flex;  
         }
-        
 
+        #menu .menu {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #menu .menu div{
+            width: 173px;
+            margin: 10px 10px 0px 0px;
+            padding: 10px 5px 10px 10px;
+            font-size: 12px;
+            border: 1px solid #d7d5d5;
+        }
+
+        #products{
+            display: grid;
+        }
         
     </style>
 </head>
@@ -81,7 +94,7 @@
         </article>
 
         <article id="menu">
-            <div>
+            <div class="menu">
                 <div>NEW&BEST</div>
                 <div>클리어스</div>
                 <div>칫솔</div>
