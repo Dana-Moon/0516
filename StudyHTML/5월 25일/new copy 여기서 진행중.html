@@ -11,15 +11,10 @@
             padding: 0;
         }
         .container{
-            display: flex;
-            flex-direction: column;
             min-width: 1200px;
             margin: 0 auto;
-            align-items: center;
-        }
-        .new_content{
             display: grid;
-            grid-template: 408px 102px 100px 1712px 200px / 100px 1fr 100px;
+            grid-template: 408px 102px 100px 1712px 200px / 1fr 1000px 1fr;
             grid-template-areas:
                 "banner banner banner"
                 ". title ."
@@ -28,21 +23,36 @@
                 ". page_button .";
         }
 
-        .new_content .new_banner {grid-area: banner;}
-        .title {grid-area: title;}
-        .menu {grid-area: menu;}
-        .products {grid-area: products;}
-        .page_button {grid-area: page_button;}
+        #new_content {grid-area: banner;}
+        #title {grid-area: title;}
+        #menu {grid-area: menu;}
+        #products {grid-area: products;}
+        #page_button {grid-area: page_button;}
 
-        .new_content .new_banner{
+        #new_content{
             position: relative;
+            justify-content: center;
+            width: 100%;
             height: 408px;
             overflow: hidden;
         }
+        .new_banner img{
+            position: absolute;
+            top: 0;
+            left: 50%;
+            margin-left: -1000px;
+            
+        }
         
-        .new_content .title{
+        #title{
             display: flex;
             justify-content: space-between;
+            border-bottom: 2px solid gray;
+            align-items: center;
+        }
+        #title .title_button{
+            display: flex;
+            
         }
         
 
@@ -101,19 +111,19 @@
         <article id="page_button">
             <div>
                 <div>
-                    <a href="#none"><<</a>
+                    <a href="#none">&lt;&lt;</a>
                 </div>
                 <div>
-                    <a href="#none"><</a>
+                    <a href="#none">&lt;</a>
                 </div>
                 <div>
                     <a href="">1</a>
                 </div>
                 <div>
-                    <a href="#none">></a>
+                    <a href="#none">&gt;</a>
                 </div>
                 <div>
-                    <a href="#none">>></a>
+                    <a href="#none">&gt;&gt;</a>
                 </div>
             </div>
         </article>
