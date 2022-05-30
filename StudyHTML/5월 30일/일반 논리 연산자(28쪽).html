@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var x = 5;
+        var y = 7;
+        var result;
+        // console.log(result) 하면 undefined라고 뜸. 선언이 안됐거나, 메모리 주소를 못 찾는 것. null이라고 하면 값이 없는 것.
+        result = (x<10 && y>10); // 참 && 거짓 //논리곱
+            document.write("(x<10 && y>10) : " + result + "<br>");
+        result = (x<10 || y>10); // 참 || 거짓 //논리합
+            document.write("(x<10 || y>10) : " + result + "<br>");
+        result = !(x<10 && y>10); // 참 || 거짓 //논리 부정
+            document.write("!(x<10 && y>10) : " +result + "<br>");
+        //컴퓨터는 2진수라서, 어떠한 것에 전체를 부정하는 말을 내리면 잘 이해함. cpu를 이해해야 한다.
+    </script>
+</body>
+</html>

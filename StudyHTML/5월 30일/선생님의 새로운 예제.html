@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 예제 9-9부터 9-12까지의 예제가 좋은 예제라고 할 수 없어서 선생님께서 예제 만드셔서 수업 진행함. -->
+    <script>
+        // let kor = 100;
+        // let kor = 200;
+        // var는 '덮어쓴다. 라고 생각하기' 가능하면 let이라고 사용해주기. var가 너무 두루뭉술하여.
+        var kor = 100;
+        var kor = 200;
+        // 선언은 되었지만, 메모리에 없는 상태를 undefined라고 하는 것.
+        // let test = 101;
+
+        function getGrade() {
+            console.log("전역변수 호출" + kor);
+            // var kor = 95;
+            kor = 96;
+            // 정확하게 kor을 출력하려고 하려면 위에 올려야 하나, 함수 안에서 사용할 경우 다르다.
+            // 지역변수 안에 let kor 처럼 사용하면, 출력이 안 됨. 지역변수 앞에 let 쓰면 위에랑 겹쳐서..?
+            console.log("function 안의 kor 출력" + kor);
+        }
+
+        getGrade();
+        document.write("국어 점수" + kor + "<br>")
+    </script>
+</body>
+</html>

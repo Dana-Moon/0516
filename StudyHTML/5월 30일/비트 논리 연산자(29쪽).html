@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // &이면 모두 1일 때만 1이고, 하나라도 0이면 0
+        // |이면 하나라도 1이면 1이고, 모두 0이면 0
+        // 우리는 2진수를 이해해야 한다.
+        // 1: 0001
+        // 2: 0010
+        // 3: 0011
+        // 4 : 0100
+        // 5: 0101
+        // 6 : 0110
+        // 7 : 0111
+
+        var x = 5; //0101
+        var y = 7; //0111
+        var result;
+        result = (x & y);
+        // 0101 + 0111 일 때, 한 자리 수부터 하여 0101 = 5
+        document.write("x & y = " + result + "<br>");
+        result = (x | y );
+        // 0101 or 0111 일 때, 0111 = 7
+        document.write("x | y = " + result + "<br>");
+        result = (x ^ y);
+        // 0101 ^ 0111 일 때, 0010 = 2
+        document.write("x ^ y = " + result + "<br>");
+        result = (~x);
+        // 1010 역순 연산. 양수 앞에 +인지 -인지 사실 +로 표시되어 있음.
+        document.write("~x = " + result + "<br>");
+    </script>
+</body>
+</html>
