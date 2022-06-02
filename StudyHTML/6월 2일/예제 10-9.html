@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function add(x, y, z) {
+            let sum;
+            console.log('x type = ' + typeof x);
+            console.log('y type = ' + typeof y);
+            console.log('z type = ' + typeof z);
+            if((y === undefined) && (z === undefined)) {
+                sum = x;
+            }
+            else if (z === undefined) {
+                sum = x + y;
+            }
+            else {
+                sum = x + y + z;
+            }
+            return sum;
+        }
+        console.log('add(2)');
+        let r1 = add(2);
+        console.log('add(2,3)');
+        let r2 = add(2, 3);
+        console.log('add(4,5,6)');
+        let r3 = add(4, 5, 6);
+        document.write("함수 호출 인자 부족 : " + r1 + "<p/>");
+        document.write("함수 호출 인자 부족 : " + r2 + "<p/>");
+        document.write("정상적인 함수 호출 : " + r3 + "<p/>");
+        //null(값이 없다.) 이외의 모든 찾지 못한 데이터는 undefined라고 볼 수 있다.
+        //console.log로 어떤 값이 출력되는지 f12에서 볼 수 있다.
+    </script>
+</body>
+</html>

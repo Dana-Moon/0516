@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function add() {
+            let i;
+            let sum=0; //console.dir(arguments); or console.dir(window)
+            console.dir(arguments); //arguments라는 것을 통해 매개 변수를 갯수대로 안 써도 됨. arguments 는 0부터 계산하는 놈이다. 따라서 미만까지만 계산한다고 볼 수 있다.
+            for(i=0; i < arguments.length; i++) {
+                sum = sum+arguments[i];
+            }// 0부터 나와서 0과 1까지만 나옴.
+            document.write("수행 결과 : " + sum + "<p/>");
+        }
+        add(2, 3); //매개변수에 들어가는 값 = 인자(argument), 암묵적으로 arguments 객체가 함.  
+        add(2, 3, 4);
+        add(4, 5, 6, 7, 8);
+        add(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+
+        console.dir(window);
+        // f12에 가서 console로 가서 window 확인할 수 있다.
+    </script>
+</body>
+</html>
