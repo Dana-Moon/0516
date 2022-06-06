@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let kor = 100;
+        // let kor = 200;
+        var kor = 100;
+        var kor = 200;
+
+        function getGrade() {
+            console.log("전역변수 호출" + kor);
+            // kor = 96;
+            // var kor = 95;
+            let kor = 95;
+            // 정확하게 kor을 출력하려고 하려면 위에 올려야 하나, 함수 안에서 사용할 경우 다르다.
+            // 지역변수 위치에 let kor 처럼 사용하면, 출력이 안 됨. 지역변수 앞에 let 쓰면 위에랑 겹침.
+            console.log("function 안의 kor 출력" + kor);
+        }
+
+        getGrade();
+        document.write("국어 점수 : " + kor + "<br>")
+    </script>
+</body>
+</html>

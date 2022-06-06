@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var globValue1; //전역 변수 선언
+            globValue2; //전역 변수 선언, var 생략
+
+        function hamsue() {
+            var locValue; //지역 변수 선언
+                globValue; //함수 내부에서 var 생략 시 자동 전역 변수로 선언
+            locValue=10; // 지역 변수 사용
+        }
+
+        globValue=10; //전역 변수 사용
+    </script>
+</body>
+</html>
