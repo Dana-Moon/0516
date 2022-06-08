@@ -9,8 +9,26 @@
 <body>
     <script>
         function solution(s) {
-            //for 문과 if문 만으로 만들어 보기
+            let arr = s.split(" ");
+            let answer = "";
+            for(let i=0; i<arr.length; i++) {
+                answer = '';
+                for (let j=0; j<arr[i].length; j++) {
+                    if(j%2 == 0) {
+                        answer = answer + arr[i][j].toUpperCase();
+                    }
+                    else {
+                        answer = answer + arr[i][j].toLowerCase();
+                    }
+                }
+                arr[i] = answer;
+            }
+            return arr.join(' ');
         }
+        
+        let s = "try hello world";
+        document.body.appendChild(document.createTextNode(solution(s)))
+        console.log(solution(s))
     </script>
 </body>
 </html>
