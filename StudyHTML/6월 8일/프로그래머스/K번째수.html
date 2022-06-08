@@ -8,10 +8,19 @@
 </head>
 <body>
     <script>
-    function solution(array, commands) {
-        var answer = [];
+        function solution(array, commands) {
+            var answer = [];
+            let arr = [];
+            let temp;
+
+            for(let i=0; i<commands.length; i++){
+                for(let j=commands[i][0]-1; j<commands[i][1]; j++){
+                    arr.push(array[j]);
+                }
+                for(// j 배열의 순서를 sort로 정리하기) {}
+            }
         return answer;
-    }
+        }
     </script>
 </body>
 </html>
