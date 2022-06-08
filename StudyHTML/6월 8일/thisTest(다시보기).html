@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="upspeed"></p>
+    <p id="upspeedThis"></p>
+    <p id="upspeedGlobal_1"></p>
+
+    <script>
+        let var_1 = 30;
+        var car = {
+            speed: 50,
+            speedup: function() {
+                return this.speed+10;
+            },
+            speedThis: this.speed, // 이것은 속성값의 전역변수 this이다. window의 것을 찾음.
+            speedGlobal: var_1 + 5,
+        };
+        var upspeed = document.getElementById("upspeed");
+        upspeed.textContent = 'upspeed : ' + car.speedup();
+        var upspeedThis = document.getElementById("upspeedThis");
+        upspeedThis.textContent = 'upspeedThis : ' + car.speedThis;
+        //여기서 undefined 나올 것이다. 위의 this 때문이다.
+        var upspeedGlobal_1 = document.getElementById("upspeedGlobal_1");
+        upspeedGlobal_1.textContent = 'upspeedGlobal : ' + car.speedGlobal;
+    </script>
+</body>
+</html>
