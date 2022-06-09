@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function solution(array, commands) {
+            var answer = [];
+            let arr = [];
+
+            for(let i=0; i<commands.length; i++) {
+                arr = [];
+                for(let j=commands[i][0]-1; j<commands[i][1]; j++){
+                    arr.push(array[j]);
+                }
+
+                answer.push(bubbleSort(arr)[commands[i][2]-1]);
+            }
+        }
+
+        function bubbleSor(array) {
+            let temp;
+            for(let i=0; i<array.length-1; i++) {
+                for(let j=0; j<array.length-1-i; j++) {
+                    if(array[j] > array[j+1]){
+                        temp = array[j+1];
+                        array[j+1] = array[j];
+                        array[j] = temp;
+                    }
+                }
+            }
+            return array;
+        }
+
+
+
+
+
+        function solution(array, commands) {
+            return commands.map(command => {return array.slice(command[0]-1, command[1].sort((a,b) => a-b)[command[2]-1])});
+        }
+    </script>
+</body>
+</html>

@@ -11,16 +11,34 @@
         function solution(array, commands) {
             var answer = [];
             let arr = [];
-            let temp;
 
             for(let i=0; i<commands.length; i++){
+                arr = [];
                 for(let j=commands[i][0]-1; j<commands[i][1]; j++){
                     arr.push(array[j]);
                 }
-                for(// j 배열의 순서를 sort로 정리하기) {}
+
+                answer.push(bubbleSort(arr)[commands[i][2]-1]);
             }
         return answer;
         }
+
+        function bubbleSort(array) {
+            let temp;
+            for(let i=0; i<array.length-1; i++){
+                for(let j=0; j<array.length-1-i; j++) {
+                    if(array[j] > array[j+1]){
+                        temp = array[j+1];
+                        array[j+1] = array[j];
+                        array[j] = temp;
+                    }
+                }
+            }
+            return array;
+        }
+
+        console.log(bubbleSort([5,9,1,3,0,7]));
+        
     </script>
 </body>
 </html>

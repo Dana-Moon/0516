@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function solution(price, money, count) {
+
+        let sum=0;
+        
+        for(let i=1; i<=count; i++) {
+            sum = price*i + sum;  
+        }
+        if (sum > money) {
+                sum = sum - money;
+            }else {
+                sum = 0;
+            }
+            
+        return sum;
+    }
+
+    function solution(price, money, count) {
+        const tmp = price * count * (count + 1) / 2 - money;
+        return tmp > 0 ? tmp : 0;
+    }
+
+    function solution(price, money, count) {
+    return (err=Array.from({length:count},(v,i)=>price*(i+1)).reduce((acc,v)=>acc-v,money))<0?-err:0;
+}
+
+    </script>
+</body>
+</html>
