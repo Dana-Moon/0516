@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //https://dasima.xyz/javascript-ternary-operator/
+        var x = 1;
+        var y = -1;
+        var z = x>y ? "기온이 영상입니다." : "기온이 영하입니다."
+        var k = x<y ? "기온이 영상입니다." : "기온이 영하입니다."
+
+        document.write(z, '<br>');
+        document.write(k, '<br>');
+
+
+        //prompt함수를 사용하여 어떠한 팝업창이 떴을 때, 사용자가 입력하도록 유도할 수 있다.
+        var x = prompt("현재 온도를 입력해주세요.","");
+        var y = Number(x);
+        var z = x>0 ? "현재 온도는 영상입니다." : "현재 온도는 영하입니다."
+        document.write(z);
+    </script>
+</body>
+</html>

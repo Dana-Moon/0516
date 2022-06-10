@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function solution (answers) {
+            const answer_1 = [1,2,3,4,5];
+            const answer_2 = [2,1,2,3,2,4,2,5];
+            const answer_3 = [3,3,1,1,2,2,4,4,5,5];
+            let sum_1 = 0;
+            let sum_2 = 0;
+            let sum_3 = 0;
+            var answer = [];
+            let max;
+            
+            for(let i = 0; i<answers.length; i++) {
+                if(answers[i] === answer_1[i%answer_1.length])
+                sum_1++;
+                if(answers[i] === answer_2[i%answer_2.length])
+                sum_2++;
+                if(answers[i] === answer_3[i%answer_3.length])
+                sum_3++;
+            }
+
+            let arr = [sum_1, sum_2, sum_3];
+            // max = arr.sort(function(a,b){return b-a})[0];
+            // 이상하게 Math.max를 쓰면 정상적으로 돌고, max = arr.sort를 하면 에러를 뿜는다.
+            max = Math.max(...arr);
+            
+            for(let j=0; j<arr.length; j++) {
+                if(max == arr[j]) {
+                    answer.push(j+1);
+                }
+            }
+
+            return answer;
+        }
+    </script>
+</body>
+</html>

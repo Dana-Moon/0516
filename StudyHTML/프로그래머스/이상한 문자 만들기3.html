@@ -29,6 +29,18 @@
         }
         console.log(solution("try hello world"));
         
+
+        function solution(s) {
+            let chk = 0;
+            let answer = '';
+
+            for(let i=0; i<s.length; i++) {
+                chk = (s[i] !== '') ? chk + 1 : 0;
+                answer += (chk%2) ? s[i].toUpperCase() : s[i].toLowerCase();
+            }
+
+            return answer;
+        }
     </Script>
 </body>
 </html>

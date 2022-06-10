@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function solution (answers) {
+            var answer = [];
+            let temp = [[1,2,3,4,5], [2,1,2,3,2,4,2,5], [3,3,1,1,2,2,4,4,5,5]];
+            let sum = [0,0,0];
+            let max;
+
+            for(let i = 0; i<answers.length; i++) {
+                for(let j=0; j<temp.length; j++) {
+                    if(answers[i] === temp[j][i%temp[j].length]){
+                        sum[j]++;
+                    }
+                }
+            }
+
+            // max = sum.sort(function(a,b){return b-a})[0];
+            max = Math.max(...arr);
+            
+            for(let j=0; j<sum.length; j++) {
+                if(max == sum[j]) {
+                    answer.push(j+1);
+                }
+            }
+
+            return answer;
+        }
+
+        solution([1,2,3,4,5]);
+
+
+    </script>
+</body>
+</html>
