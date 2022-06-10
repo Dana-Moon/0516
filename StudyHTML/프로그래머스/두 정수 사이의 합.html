@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function solution(a, b) {
+    let answer = 0;
+    let first = a;
+    let second = b;
+
+    //제한조건 처리 (안해도 됨.)
+    if(-10000000 <= a <= 10000000)
+
+    //절대값 처리 (대소관계 처리)
+    if(a>b) {
+        first = b;
+        second = a;
+    }
+    else if (b>a) {
+        first = a;
+        second = b;
+    }
+
+    //덧셈 처리
+    for (let i = first; i <= second; i++) {
+        answer = answer + i;
+    }
+    return answer;
+}
+    </script>
+</body>
+</html>
