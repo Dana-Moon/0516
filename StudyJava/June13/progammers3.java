@@ -40,6 +40,7 @@ public class progammers3 {
                 System.out.println("ok");
 
             }
+        }
         //고정배열만 equals를 쓸 수 있다.
         //name은 속성을 통해서 길이를 알 수 있다.
         //inputArray는 가변속성이기 때문에 size를 사용합니다.
@@ -58,7 +59,7 @@ public class progammers3 {
         // return answer 하면 int와 String이 충돌하여 빨간 줄 생김.
 
         //string buffer? arraylist랑 list를 구분지어 기억할 것.}
-        }  
+        
     }
 }
 
