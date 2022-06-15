@@ -29,9 +29,7 @@ class Primenumber {
             for(j=2; j<prime.get(i); j++){
                 if(prime.get(i)%j == 0){
                     count++;
-                    
                 }
-                
             }
             if(count == 0) {
                 answer++;
