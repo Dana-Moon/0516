@@ -1,3 +1,5 @@
+package June13;
+
 import java.util.ArrayList;
 // 파일을 가져다 쓸 때도 import를 사용해야 한다.
 // java안에 util안에 arraylist를 불러서 쓰는 것이다. java.util.*로도 사용할 수 있지만, 이렇게 하면 용량을 너무 많이 잡아먹으므로 좋은 방법은 아니다.

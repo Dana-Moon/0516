@@ -1,3 +1,5 @@
+package June14;
+
 public class money {
     public static void main(String[] args) {
             int price = 3;

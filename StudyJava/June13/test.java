@@ -1,4 +1,4 @@
-// package StudyJava.June13;
+package June13;
 
 class Main {
    public static void main(String[] args) {

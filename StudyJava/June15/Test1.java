@@ -1,3 +1,5 @@
+package June15;
+
 class Test1 {
     public static void main(String[] args) {
         Number number1 = new Number(); //왼쪽이 계획 오른쪽이 실행
