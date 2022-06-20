@@ -1,6 +1,6 @@
 package June17;
 
-import June17.packge001.*;
+import June17.package001.*;
 
 public class main {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package June17.packge001;
+package June20.package001;
 
-public class Coffee {
+public class Car {
     public String company = "retreebean";
     public String origin = "과테말라";
     public int kg = 1;
