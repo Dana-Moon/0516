@@ -5,11 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #bbb {
+            display: hidden;
+        }
+    </style>
+    <script>
+        function textvisible() {
+            document.getElementById("bbb").style.visibility="visible";
+        }
+        function texthidden() {
+            document.getElementById("aaa").style.visibility="hidden";
+        };
+        function textvisible() {
+            document.getElementById("aaa").style.visibility="visible";
+        }
+    </script>
 </head>
 <body>
-    당신의 이름은 무엇입니까?
-    <p>
-        
-    </p>
+    <p id="aaa">당신의 이름은 무엇입니까?</p>
+    <div>
+        <input type="button" onclick="textvisible()" value="답변하기">
+        <input type="button" onclick="texthidden()" value="질문 숨기기">
+        <input type="button" onclick="textvisible()" value="질문 보이기">
+    </div>
+    <p id="bbb">내 이름은 김준석입니다.</p>
 </body>
 </html>
