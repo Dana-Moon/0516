@@ -1,17 +1,16 @@
-package June21.Game.slimeLand;
+package June21.Team6.slimeLand;
 
 public class Warrior {
     public String name;
     public int hp;
     public int mp;
+    public int offpower;
 
-    public Warrior(String input_name, int input_hp, int input_mp) {
+    public Warrior(String input_name, int input_hp, int input_mp, int input_offpower) {
         this.name = input_name;
         this.hp = input_hp;
         this.mp = input_mp;
-    }
-
-    public Warrior(String input_name, int i, int j, int input_offpower) {
+        this.offpower = input_offpower;
     }
 
     public int att() {
@@ -35,8 +34,11 @@ public class Warrior {
     }
 
     public void info() {
-        System.out.println("_______"+name+"________");
+        System.out.println("----------------------");
+        System.out.println(this.name);
         System.out.println("HP = " + this.hp);
         System.out.println("MP = " + this.mp);
+        System.out.println("공격력 = " + this.offpower);
+        System.out.println("----------------------");
     }
 }

@@ -5,6 +5,12 @@ public class Dragon {
     public int hp;
     public int mp;
 
+    public Dragon() {
+        this.name = "용가리";
+        this.hp = 100;
+        this.mp = 100;
+    }
+
     public Dragon(String input_name, int input_hp, int input_mp) {
         this.name = input_name;
         this.hp = input_hp;

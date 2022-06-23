@@ -1,17 +1,13 @@
 package June21.Team6;
 
-import java.util.Scanner;
-
-import javax.swing.plaf.synth.SynthSplitPaneUI;
-
-import June21.Team6.*;
+import June21.Team6.slimeLand.*;
 
 public class main {
     public static void main(String[] args) {
-        String input = "";
-        Scanner scan = new Scanner(System.in);
-        System.out.println("게임 스타트!!");
-        System.out.println("무기를 선택해주세요!!");
-        System.out.println("1.막대기 \t ");
+        gameStart gameStart = new gameStart();
+        gameStart.gameStart();
+
+        town town = new town();
+        town.town();
     }
 }
