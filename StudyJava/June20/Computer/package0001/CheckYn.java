@@ -6,7 +6,7 @@ public class CheckYn {
             if(check == "yes") {
                 System.out.println("데이터에 저장합니다");
                 return true;
-            }else if (check == "no")
+            }else if (check == "no");
         }
     }
 }

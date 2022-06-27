@@ -43,9 +43,9 @@ public class gameStart {
         weaponNumber = scan.nextInt();
         Weapon weapon = new Weapon(name, offpower);
         weapon.chooseWeapon(input_name, weaponNumber, offpower);
-       
-        Warrior warrior = new Warrior(input_name, 100, 100, offpower);
 
-        warrior.info();
+        Warrior.setName(input_name);
+        
+        Warrior.info();
     }
 }

@@ -1,10 +1,10 @@
 package June21.Team6.slimeLand;
 
 public class Warrior {
-    public String name;
-    public int hp;
-    public int mp;
-    public int offpower;
+    public static String name;
+    public static int hp = 100;
+    public static int mp = 50;
+    public static int offpower = 5;
 
     public Warrior(String input_name, int input_hp, int input_mp, int input_offpower) {
         this.name = input_name;
@@ -13,32 +13,36 @@ public class Warrior {
         this.offpower = input_offpower;
     }
 
-    public int att() {
+    public static void setName(String input_name) {
+        name = input_name;
+    }
+
+    public static int att() {
         return 10;
     }
 
-    public int att_A() {
-        this.mp -= 10;
+    public static int att_A() {
+        mp -= 10;
         return 30;
     }
 
-    public int att_B() {
-        this.mp -= 20;
+    public static int att_B() {
+        mp -= 20;
         return 50;
     }
 
-    public void dmg(int input_dmg) {
-        this.hp = this.hp - input_dmg;
+    public static void dmg(int input_dmg) {
+        hp = hp - input_dmg;
         System.out.println("용사는 " +input_dmg+ "의 공격을 받았습니다.");
-        System.out.println("용사의 hp : "+this.hp);
+        System.out.println("용사의 hp : "+hp);
     }
 
-    public void info() {
+    public static void info() {
         System.out.println("----------------------");
-        System.out.println(this.name);
-        System.out.println("HP = " + this.hp);
-        System.out.println("MP = " + this.mp);
-        System.out.println("공격력 = " + this.offpower);
+        System.out.println(name);
+        System.out.println("HP = " + hp);
+        System.out.println("MP = " + mp);
+        System.out.println("공격력 = " + offpower);
         System.out.println("----------------------");
     }
 }

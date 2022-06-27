@@ -1,19 +1,19 @@
 package June21.Team6.slimeLand;
 
-public class snail {
-    //필드값 (슬라임의 hp, mp ...)
+public class Snail {
+    //필드값
 
     public String name;
     public int hp;
     public int mp;
 
-    //생성자(슬라임 클래스를 인스턴스로 만들 때 매개변수를 받아서 객체 만들기)
-    public snail() {
+    //생성자
+    public Snail() {
         this.name = "달팽이";
         this.hp = 5;
     }
 
-    public snail(String input_name, int input_hp, int input_mp) {
+    public Snail(String input_name, int input_hp, int input_mp) {
         this.name = input_name;
         this.hp = input_hp;
         this.mp = input_mp;

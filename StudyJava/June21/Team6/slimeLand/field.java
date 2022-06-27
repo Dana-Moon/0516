@@ -17,10 +17,11 @@ public class field {
             System.out.println("몬스터가 나타났다!");
             System.out.println("----------------------");
 
+            
             Random ran = new Random();
-            snail snail = new snail();
-            slime slime = new slime();
-            Dragon dragon = new Dragon();
+            Snail snail = new Snail();
+            Slime slime = new Slime();
+            OrangeMushroom orangeMushroom = new OrangeMushroom();
             int n = 0;
             for(int i=0; i<10; i++) {
                 n = ran.nextInt(3);
@@ -31,11 +32,13 @@ public class field {
                     slime.info();
                 }
                 else if(n == 2) {
-                    dragon.info();
+                    orangeMushroom.info();
                 }
-                System.out.println("전투가 시작되었다!");
+                scan.nextLine();
+                Warrior.dmg(i);
+                
             }
-            
+            System.out.println("용사는 몬스터를 모두 무찔렀다!");
             System.out.println("게임이 종료되었습니다.");
             
         }
