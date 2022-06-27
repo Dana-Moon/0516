@@ -1,4 +1,4 @@
-package June21.Team6.slimeLand;
+package Team6.slimeLand;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
-package June21.Team6;
+package Team6;
 
-import June21.Team6.slimeLand.*;
+import Team6.slimeLand.*;
 
 public class main {
     public static void main(String[] args) {

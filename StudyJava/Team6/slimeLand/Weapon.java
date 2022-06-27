@@ -1,6 +1,6 @@
-package June21.Team6.slimeLand;
+package Team6.slimeLand;
 
-import June21.Team6.*;
+import Team6.*;
 
 public class Weapon {
     public String name;

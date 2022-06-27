@@ -1,4 +1,4 @@
-package June21.Team6.slimeLand;
+package Team6.slimeLand;
 
 public class Slime {
     //필드값 (슬라임의 hp, mp ...)

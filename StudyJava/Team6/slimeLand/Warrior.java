@@ -1,4 +1,4 @@
-package June21.Team6.slimeLand;
+package Team6.slimeLand;
 
 public class Warrior {
     public static String name;
