@@ -1,6 +1,6 @@
 package June28_sandwich.point.package0004;
 
-public class CalcFor_0004 {
+public class CalcFor_0004_1 {
 
     public static int i=0;
     public static int j=0;
@@ -10,11 +10,13 @@ public class CalcFor_0004 {
         // Y = 7;
         
         for(i=0; i<numY; i++) {
-            for(j=numY; j-1>i; j--) {
-                System.out.print(" ");
-            }
-            for(j=numX-i; j<numX+1; j++) {
-                System.out.print("*");
+            for(j=0; j<numX; j++) {
+                if(numX-j-1>i) {
+                    System.out.print(" ");
+                }
+                else {
+                    System.out.print("*");
+                }
             }
             System.out.println();
         }

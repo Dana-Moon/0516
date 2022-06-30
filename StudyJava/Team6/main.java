@@ -1,19 +1,19 @@
 package Team6;
 
 import Team6.slimeLand.*;
-import Team6.Overiding.*;;
+// import Team6.Overiding.*;;
 
 public class main {
     public static void main(String[] args) {
-        // gameStart gameStart = new gameStart();
-        // gameStart.gameStart();
+        gameStart gameStart = new gameStart();
+        gameStart.gameStart();
 
-        // town town = new town();
-        // town.town();
+        town town = new town();
+        town.town();
 
         // ChangeWeapon();
 
-        CreateSlime();
+        // CreateSlime();
 
         
         

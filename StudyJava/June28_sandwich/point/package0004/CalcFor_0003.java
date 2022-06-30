@@ -6,8 +6,8 @@ public class CalcFor_0003 {
     public static int j=0;
 
     public static void calcFor_0003(int numX, int numY) {
-        // X = 7;
-        // Y = 7;
+        // X = 6;
+        // Y = 6;
         
         for(i=0; i<numY; i++) {
             for(j=0; j<numX-i-2; j++) {
