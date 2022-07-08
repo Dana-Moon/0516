@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2022-07-08T07:42:29.344Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.4" etag="VAzBdBrYLareeYYm8lX4" type="github"><diagram id="AvayIXJROj1aQSXWDuXP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-08T07:54:34.287Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Fuollx-RjdqpEk2NWBHS" version="20.0.4" type="github">
+  <diagram id="AvayIXJROj1aQSXWDuXP" name="Page-1">
+    <mxGraphModel dx="1438" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y3bPy8hoU_rZ8uSnKE4D-5" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="140" width="320" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="y3bPy8hoU_rZ8uSnKE4D-1" value="테스트 오라클" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;hachureGap=4;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="160" width="280" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="y3bPy8hoU_rZ8uSnKE4D-2" value="정의&#xa; : 테스트 결과가 올바른지 판단하기 위해 사전에 정의된 참 값을 대입하여 비교하는 기법 및 활동을 말한다." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;whiteSpace=wrap;" vertex="1" parent="y3bPy8hoU_rZ8uSnKE4D-1">
+          <mxGeometry y="30" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="y3bPy8hoU_rZ8uSnKE4D-3" value="특징&#xa; 1) 제한된 검증 : 모든 테스트 케이스에 적용할 수 없다.&#xa;2) 수학적 기법 : 값을 수학적 기법을 이용하여 구할 수 있다.&#xa;3) 자동화 기능 : 테스트 대상 프로그램의 실행, 결과 비교, 커버리지 측정 등을 자동화할 수 있다." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;whiteSpace=wrap;" vertex="1" parent="y3bPy8hoU_rZ8uSnKE4D-1">
+          <mxGeometry y="120" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="y3bPy8hoU_rZ8uSnKE4D-4" value="테스트 오라클의 종류&#xa;&#xa;1) 참 오라클 : 모든 테스트 케이스의 입력 값에 대해 기대하는 결과를 제공하는 오라클로 발생된 모든 오류를 검출할 수 있다.&#xa;2) 샘플링 오라클 : 특정한 몇몇 테스트 케이스의 입력 값들에 대해서만 기대하는 결과를 제공한다.&#xa;3) 추정 오라클 : 샘플링 오라클을 개선한 오라클로, 특정 테스트 케이스의 입력 값에 대해 기대하는 결과를 제공하고, 나머지 입력 값들에 대해서는 추정으로 처리한다." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;whiteSpace=wrap;" vertex="1" parent="y3bPy8hoU_rZ8uSnKE4D-1">
+          <mxGeometry y="270" width="280" height="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
