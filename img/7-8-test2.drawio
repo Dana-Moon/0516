@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2022-07-08T07:10:17.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.4" etag="rsprSa4Nmvvaekzzui0r" type="github"><diagram id="JR6FyzC5kapw-EFOeq27">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-08T07:16:39.815Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Qr2IHtCFQVzE4w83qbZx" version="20.0.4" type="github">
+  <diagram id="JR6FyzC5kapw-EFOeq27" name="Page-1">
+    <mxGraphModel dx="1838" dy="1339" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Bvp9gPXVdWWvlkPdXhC5-11" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="-490" width="390" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvp9gPXVdWWvlkPdXhC5-9" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="Bvp9gPXVdWWvlkPdXhC5-1" target="Bvp9gPXVdWWvlkPdXhC5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvp9gPXVdWWvlkPdXhC5-1" value="사용자 측면에서의 요구사항이며, 기능 개선이 중점이다.&lt;br&gt;사용자가 원하는 목표를 위하여 수행해야 할 내용을 기술한다." style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="-480" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvp9gPXVdWWvlkPdXhC5-8" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="Bvp9gPXVdWWvlkPdXhC5-2" target="Bvp9gPXVdWWvlkPdXhC5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvp9gPXVdWWvlkPdXhC5-2" value="유스케이스에 기록된 내용을 토대로 실제 수행 방법을 구현한다." style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="-360" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvp9gPXVdWWvlkPdXhC5-10" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="Bvp9gPXVdWWvlkPdXhC5-3" target="Bvp9gPXVdWWvlkPdXhC5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvp9gPXVdWWvlkPdXhC5-3" value="사용자에게 있어 외부 시스템이나 서브 시스템과의&lt;br&gt;의사소통 수단으로 사용된다." style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="-240" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvp9gPXVdWWvlkPdXhC5-4" value="하나의 단위 업무에 대한 독립적인 기능을 수행할 수 있도록 한다." style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="-120" width="370" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
