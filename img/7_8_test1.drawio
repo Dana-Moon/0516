@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2022-07-08T07:05:46.644Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.4" etag="2EOLy5ZDLdLiU3bxZOMw" type="github"><diagram id="a_EQXI0sdLPc-mOJ1lvP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-08T07:08:39.378Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="76RaFhD2cN0bwZ8dN7bu" version="20.0.4" type="github">
+  <diagram id="a_EQXI0sdLPc-mOJ1lvP" name="Page-1">
+    <mxGraphModel dx="1743" dy="1339" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_GQWe4YFGjQs4GI5ivjN-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="_GQWe4YFGjQs4GI5ivjN-1" target="_GQWe4YFGjQs4GI5ivjN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_GQWe4YFGjQs4GI5ivjN-1" value="와이어 프레임" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="-480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_GQWe4YFGjQs4GI5ivjN-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="_GQWe4YFGjQs4GI5ivjN-2" target="_GQWe4YFGjQs4GI5ivjN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_GQWe4YFGjQs4GI5ivjN-2" value="스토리보드" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="-380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_GQWe4YFGjQs4GI5ivjN-3" value="목업" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="-280" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
