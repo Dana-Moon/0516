@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-08T07:54:34.287Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Fuollx-RjdqpEk2NWBHS" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-08T08:08:31.090Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="502cj_t-yb-w1Vi-yyJC" version="20.0.4" type="github">
   <diagram id="AvayIXJROj1aQSXWDuXP" name="Page-1">
-    <mxGraphModel dx="1438" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1438" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,6 +18,55 @@
         </mxCell>
         <mxCell id="y3bPy8hoU_rZ8uSnKE4D-4" value="테스트 오라클의 종류&#xa;&#xa;1) 참 오라클 : 모든 테스트 케이스의 입력 값에 대해 기대하는 결과를 제공하는 오라클로 발생된 모든 오류를 검출할 수 있다.&#xa;2) 샘플링 오라클 : 특정한 몇몇 테스트 케이스의 입력 값들에 대해서만 기대하는 결과를 제공한다.&#xa;3) 추정 오라클 : 샘플링 오라클을 개선한 오라클로, 특정 테스트 케이스의 입력 값에 대해 기대하는 결과를 제공하고, 나머지 입력 값들에 대해서는 추정으로 처리한다." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;whiteSpace=wrap;" vertex="1" parent="y3bPy8hoU_rZ8uSnKE4D-1">
           <mxGeometry y="270" width="280" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="y3bPy8hoU_rZ8uSnKE4D-7" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="220" y="140" width="320" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="y3bPy8hoU_rZ8uSnKE4D-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="y3bPy8hoU_rZ8uSnKE4D-8" target="y3bPy8hoU_rZ8uSnKE4D-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3bPy8hoU_rZ8uSnKE4D-22" value="로그인&lt;br&gt;정보 전송" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y3bPy8hoU_rZ8uSnKE4D-20">
+          <mxGeometry x="-0.3239" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3bPy8hoU_rZ8uSnKE4D-8" value="클라이언트 웹" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y3bPy8hoU_rZ8uSnKE4D-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="y3bPy8hoU_rZ8uSnKE4D-9" target="y3bPy8hoU_rZ8uSnKE4D-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3bPy8hoU_rZ8uSnKE4D-24" value="데이터 전송" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y3bPy8hoU_rZ8uSnKE4D-21">
+          <mxGeometry x="0.1653" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3bPy8hoU_rZ8uSnKE4D-25" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="y3bPy8hoU_rZ8uSnKE4D-9" target="y3bPy8hoU_rZ8uSnKE4D-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3bPy8hoU_rZ8uSnKE4D-9" value="데이터 서버" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="240" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y3bPy8hoU_rZ8uSnKE4D-26" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="y3bPy8hoU_rZ8uSnKE4D-10" target="y3bPy8hoU_rZ8uSnKE4D-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3bPy8hoU_rZ8uSnKE4D-10" value="로그인 ID확인" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="400" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y3bPy8hoU_rZ8uSnKE4D-27" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="y3bPy8hoU_rZ8uSnKE4D-11" target="y3bPy8hoU_rZ8uSnKE4D-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3bPy8hoU_rZ8uSnKE4D-11" value="로그인 PW확인" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="400" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y3bPy8hoU_rZ8uSnKE4D-28" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="y3bPy8hoU_rZ8uSnKE4D-12" target="y3bPy8hoU_rZ8uSnKE4D-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3bPy8hoU_rZ8uSnKE4D-12" value="필요 데이터 전송" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="240" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y3bPy8hoU_rZ8uSnKE4D-14" value="로그인 폼을 통해&lt;br&gt;ID, PW 입력 받음" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="390" y="160" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
