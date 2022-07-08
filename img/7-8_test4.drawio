@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-07-08T07:36:22.265Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="mSQQskRU1_xWH4o4VP4U" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-08T07:40:03.119Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Znm2DP_kZkMV5IHtOjgr" version="20.0.4" type="github">
   <diagram id="uI7CVu0aTkvJOPc2zPJk" name="Page-1">
-    <mxGraphModel dx="1038" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1502" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1tfpsLQ7azss_ySESUAV-13" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+        <mxCell id="1tfpsLQ7azss_ySESUAV-13" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" parent="1" vertex="1">
           <mxGeometry y="60" width="240" height="490" as="geometry" />
         </mxCell>
-        <mxCell id="1tfpsLQ7azss_ySESUAV-9" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;hachureGap=4;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="1tfpsLQ7azss_ySESUAV-9" value="웹의 3요소" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;hachureGap=4;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="20" y="80" width="200" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="1tfpsLQ7azss_ySESUAV-10" value="웹의 표준&#xa;&#xa; : 웹에서 사용되는 기술이나 규칙을 의미하며, 웹 사이트를 작성할 때 이용하는 HTML, CSS, JavaScript 등에 대한 규정과 다른 기종이나 다른 플랫폼에서도 구현되도록 제작하는 기법등을 포함한다." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;whiteSpace=wrap;" vertex="1" parent="1tfpsLQ7azss_ySESUAV-9">
+        <mxCell id="1tfpsLQ7azss_ySESUAV-10" value="웹의 표준&#xa;&#xa; : 웹에서 사용되는 기술이나 규칙을 의미하며, 웹 사이트를 작성할 때 이용하는 HTML, CSS, JavaScript 등에 대한 규정과 다른 기종이나 다른 플랫폼에서도 구현되도록 제작하는 기법등을 포함한다." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;whiteSpace=wrap;" parent="1tfpsLQ7azss_ySESUAV-9" vertex="1">
           <mxGeometry y="30" width="200" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="1tfpsLQ7azss_ySESUAV-11" value="웹의 접근성&#xa;&#xa; : 어떠한 사용자인지, 기술 환경인지 구애받지 않고, 전문적인 능력 없이 웹 사이트에서 제공하는 모든 정보에 접근할 수 있도록 보장하는 것을 뜻한다. 모든 사용자가 손쉽게 접근할 수 있고, 실사용성을 고려하여 구현하였는지 여부의 수준을 의미한다." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;whiteSpace=wrap;" vertex="1" parent="1tfpsLQ7azss_ySESUAV-9">
+        <mxCell id="1tfpsLQ7azss_ySESUAV-11" value="웹의 접근성&#xa;&#xa; : 어떠한 사용자인지, 기술 환경인지 구애받지 않고, 전문적인 능력 없이 웹 사이트에서 제공하는 모든 정보에 접근할 수 있도록 보장하는 것을 뜻한다. 모든 사용자가 손쉽게 접근할 수 있고, 실사용성을 고려하여 구현하였는지 여부의 수준을 의미한다." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;whiteSpace=wrap;" parent="1tfpsLQ7azss_ySESUAV-9" vertex="1">
           <mxGeometry y="170" width="200" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="1tfpsLQ7azss_ySESUAV-12" value="웹 호환성&#xa;&#xa; : 서비스 이용자 단말기의 하드웨어 및 소프트웨어 환경이 다른 경우에도 동등한 서비스를 제공하는 것을 의미한다." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;whiteSpace=wrap;" vertex="1" parent="1tfpsLQ7azss_ySESUAV-9">
+        <mxCell id="1tfpsLQ7azss_ySESUAV-12" value="웹 호환성&#xa;&#xa; : 서비스 이용자 단말기의 하드웨어 및 소프트웨어 환경이 다른 경우에도 동등한 서비스를 제공하는 것을 의미한다." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;whiteSpace=wrap;" parent="1tfpsLQ7azss_ySESUAV-9" vertex="1">
           <mxGeometry y="340" width="200" height="110" as="geometry" />
         </mxCell>
       </root>
