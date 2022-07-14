@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" modified="2022-07-08T07:41:52.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="FKBbLCKp9tK6G2vxh6y2" version="20.0.4" type="github">
+  <diagram id="8Nl2BdyE2gre0P7Vs4y5" name="Page-1">
+    <mxGraphModel dx="1438" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8TejgHc7eGMyhtrAwkuI-8" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="150" width="180" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="8TejgHc7eGMyhtrAwkuI-1" value="시나리오 작성 요건" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;hachureGap=4;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="170" width="140" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="8TejgHc7eGMyhtrAwkuI-2" value="완전성" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;whiteSpace=wrap;" vertex="1" parent="8TejgHc7eGMyhtrAwkuI-1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8TejgHc7eGMyhtrAwkuI-3" value="일관성" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;whiteSpace=wrap;" vertex="1" parent="8TejgHc7eGMyhtrAwkuI-1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8TejgHc7eGMyhtrAwkuI-4" value="이해성" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;whiteSpace=wrap;" vertex="1" parent="8TejgHc7eGMyhtrAwkuI-1">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8TejgHc7eGMyhtrAwkuI-5" value="가독성" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;whiteSpace=wrap;" vertex="1" parent="8TejgHc7eGMyhtrAwkuI-1">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8TejgHc7eGMyhtrAwkuI-6" value="수정 용이성" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;whiteSpace=wrap;" vertex="1" parent="8TejgHc7eGMyhtrAwkuI-1">
+          <mxGeometry y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8TejgHc7eGMyhtrAwkuI-7" value="추적 용이성" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;whiteSpace=wrap;" vertex="1" parent="8TejgHc7eGMyhtrAwkuI-1">
+          <mxGeometry y="180" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

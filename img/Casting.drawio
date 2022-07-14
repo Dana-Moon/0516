@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2022-07-01T15:39:37.128Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="9DsVmRBQX00h7tzMelDM" version="20.0.4" type="github">
+  <diagram id="DL0fNcubg0apvaiaLbpR" name="Page-1">
+    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="520" pageHeight="150" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ox-p0_dNMfezR5jQb4kF-1" value="자식 클래스 변수" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ox-p0_dNMfezR5jQb4kF-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;exitX=0.7;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ox-p0_dNMfezR5jQb4kF-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="20" />
+              <mxPoint x="110" y="20" />
+              <mxPoint x="110" y="37" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ox-p0_dNMfezR5jQb4kF-2" value="(자식 클래스) 부모 클래스 타입;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="190" y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ox-p0_dNMfezR5jQb4kF-3" value="=" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="130" y="45" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ox-p0_dNMfezR5jQb4kF-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="ox-p0_dNMfezR5jQb4kF-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ox-p0_dNMfezR5jQb4kF-4" value="자식 타입이 부모 타입으로 변환된 상태" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="240" y="100" width="260" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
