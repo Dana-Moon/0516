@@ -22,8 +22,8 @@ public class main {
     public static void fieldSlime() {
         System.out.println("용사는 야생 지역에 진입했다.");
 
-        System.out.println("용사의 눈 앞에 "+arrSlimeName.length+"마리의 슬라임이 나타났다!!");
-        CreateSlime();
+//        System.out.println("용사의 눈 앞에 "+arrSlimeName.length+"마리의 슬라임이 나타났다!!");
+//        CreateSlime();
     }
 
     public static void CreateSlime() {
@@ -52,14 +52,14 @@ public class main {
 
     }
 
-    public static void ChangeWeapon() {
-        WeaponLance001 lance = new WeaponLance001();
-        WeaponLongSword001 longSword = new WeaponLongSword001();
-
-        lance.attAction();
-        longSword.attAction();
-
-        lance.destruction();
-
-    }
+//    public static void ChangeWeapon() {
+//        WeaponLance001 lance = new WeaponLance001();
+//        WeaponLongSword001 longSword = new WeaponLongSword001();
+//
+//        lance.attAction();
+//        longSword.attAction();
+//
+//        lance.destruction();
+//
+//    }
 }

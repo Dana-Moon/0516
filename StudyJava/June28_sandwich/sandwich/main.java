@@ -19,7 +19,7 @@ public class main {
 
         sandwiches[0] = new blueberrySand("월요일", "블루베리베이컨", "빵", "버터", "블루베리", "베이컨");
         sandwiches[1] = new lettuceSand("화요일", "상추베이컨", "빵", "버터", "상추", "베이컨");
-        sandwiches[2] = new sweetPumpkinSand("수요일", "단호박", "빵", "버터", "단호박", material_2);
+        sandwiches[2] = new sweetPumpkinSand("수요일", "단호박", "빵", "버터", "단호박", "");
         sandwiches[3] = new eggSaladSand("목요일", "에그샐러드", "빵", "버터", "계란", "샐러드");
         sandwiches[4] = new abocadoSand("금요일", "아보카도에그", "빵", "버터", "아보카도", "계란");
         

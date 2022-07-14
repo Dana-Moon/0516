@@ -35,9 +35,10 @@ public class main {
         
 
         int osType = input.nextInt();
-        OsCheck.osCheck(osType);
+        Oscheck oscheck = new Oscheck();
+        oscheck.osCheck(osType);
 
-        boolean chechComputerWhile = true;
+        boolean checkComputerWhile = true;
         ArrayList<String> computerArray = new ArrayList<String>();
 
         boolean branch = false;
@@ -52,7 +53,7 @@ public class main {
 
             System.out.println("입력하신 내용이 다음과 같습니까? 맞으면 yes, 아니면 no를 입력해 주세요");
             System.out.println(computerInputData);
-            chechOk = input.nextLine();
+            checkOk = input.nextLine();
 
             branch = CheckYn.CheckYn(checkOk, "inputCheck");
             if(branch) {
